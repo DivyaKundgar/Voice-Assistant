@@ -83,7 +83,7 @@ def show_help(engine):
 
 def main():
     engine = initialize_engine()
-    speak(engine, "Hello, I am your voice assistant. How can I help you today?")
+    speak(engine, "Hello, I am Suru your personal voice assistant. How can I help you today?")
 
     while True:
         command = listen()
